@@ -50,7 +50,7 @@ public class UserServiceImpl extends ServiceImpl<UserMapper, User>  implements U
         }
         //2.查询用户是否已经存在
         QueryWrapper queryWrapper = new QueryWrapper();
-        queryWrapper.eq("userA ccount", userAccount);
+        queryWrapper.eq("userAccount", userAccount);
         long count = this.mapper.selectCountByQuery(queryWrapper);
         if (count > 0) {
             throw new BusinessException(ErrorCode.PARAMS_ERROR, "用户已存在");

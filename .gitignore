@@ -4,6 +4,7 @@ application-local.yml
 
 HELP.md
 target/
+code_deploy
 .mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
