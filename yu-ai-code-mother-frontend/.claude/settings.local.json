@@ -3,7 +3,10 @@
     "allow": [
       "Bash(npm run *)",
       "Bash(git checkout *)",
-      "Bash(git clean *)"
+      "Bash(git clean *)",
+      "Bash(curl -s http://localhost:5173/)",
+      "Bash(rm -rf node_modules package-lock.json)",
+      "Bash(npm install *)"
     ]
   }
 }

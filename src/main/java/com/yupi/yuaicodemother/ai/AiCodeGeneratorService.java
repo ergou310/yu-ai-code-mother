@@ -2,9 +2,7 @@ package com.yupi.yuaicodemother.ai;
 
 import com.yupi.yuaicodemother.ai.model.HtmlCodeResult;
 import com.yupi.yuaicodemother.ai.model.MultiFileCodeResult;
-import dev.langchain4j.model.chat.ChatModel;
 import dev.langchain4j.service.SystemMessage;
-import jakarta.annotation.Resource;
 import org.springframework.context.annotation.Configuration;
 import reactor.core.publisher.Flux;
 

@@ -38,7 +38,7 @@
 
 <script setup lang="ts">
 import { useRouter } from 'vue-router'
-import { userRegister } from '@/api/userController.ts'
+import { register } from '@/api/userController.ts'
 import { message } from 'ant-design-vue'
 import { reactive } from 'vue'
 
